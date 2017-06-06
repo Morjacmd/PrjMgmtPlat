@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+#searchBar {
+    /*width: 100%;*/
+    /*margin: 10px;*/
+    /*padding: 20px;*/
+    /*clear: both;*/
+    background-color: transparent;
+    border: 0;
+    color:grey;
+}
+
+#field {
+    padding: 200px;
+    line-height: 2.5em;
+}
+
+#field p:nth-child(1) {
+    font-size: 1.8em;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ddd ;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+}
+label {
+    background-color: rgba(100,100,100,0.5);
+    padding: 0;
+}
+label:hover {
+    background-color: white;
+    color:darkgray;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    color: darkgray;
+
+}
